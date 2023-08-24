@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-container {
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    top: 20px; 
+    left: 20px;
+    z-index: 1;
+}
+
+.sub {
+    background-color: rgb(241, 241, 251);
+    border: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.wrapper
+{
+    color: aliceblue;
+}
+/* Add your other styles here */
